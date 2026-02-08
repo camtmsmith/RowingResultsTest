@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Prevent Git from modifying ClickOnce files
+*.deploy binary
+*.manifest binary
+*.application binary
+*.dll binary
+*.exe binary
+*.dll.deploy binary
+*.exe.deploy binary
